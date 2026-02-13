@@ -1,17 +1,29 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <title>My Resume</title>
-</head>
-<body>
-    <h1>My Resume</h1>
+<meta charset="UTF-8">
+<title>Resume</title>
 
-    <object data="Resume_1.pdf" type="application/pdf" width="100%" height="800px">
-        <embed src="Resume_1.pdf" type="application/pdf" />
-        <p>This browser does not support PDFs.
-           <a href="Resume_1.pdf">Download Resume</a>
-        </p>
-    </object>
+<style>
+    html, body {
+        margin: 0;
+        padding: 0;
+        height: 100%;
+        overflow: hidden;
+        background: #111;
+    }
+
+    iframe {
+        border: none;
+        width: 100%;
+        height: 100%;
+    }
+</style>
+</head>
+
+<body>
+
+<iframe src="Resume_1.pdf#toolbar=0"></iframe>
 
 </body>
 </html>
